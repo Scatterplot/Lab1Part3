@@ -12,7 +12,7 @@ public class Factorial
 
 		n = scanner.nextInt();
 
-		if ( n > 0 )
+		if ( n < 0 )
 		{
 			System.out.println("Number should be non-negative.");
 		}
