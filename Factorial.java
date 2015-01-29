@@ -7,7 +7,7 @@ public class Factorial
 	{
 		int n, c, fact = 1;
 		
-		System.out.println("Enter an integer to calculate its factorial");
+		System.out.print("Enter an integer to calculate its factorial: ");
 		Scanner scanner = new Scanner(System.in);
 
 		n = scanner.nextInt();
